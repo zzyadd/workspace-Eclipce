@@ -1,0 +1,50 @@
+package dataStractureProgecySemTwo;
+import java.util.*;
+import java.util.TimerTask;
+public class server extends objectTasks {
+	  Scanner sc = new Scanner(System.in);
+int server0 ;
+objectTasks server1 ;
+objectTasks server2 ;
+Queue<objectTasks> queTask = new LinkedList<objectTasks>();
+// Queue<objectTasks> queServer = new LinkedList<objectTasks>();
+public void plus () {
+	System.out.println("Enter index of new task");
+int dex = sc.nextInt();	
+	while(dex!= -1) {
+		System.out.println("Enter first num of new task");
+		int first = sc.nextInt();	
+		System.out.println("Enter second num of new task");
+		int second = sc.nextInt();	
+		queTask.add( new objectTasks(dex , first , second));
+		System.out.println("Enter index of new task");
+		 dex = sc.nextInt();	}
+	}
+	public void doingcalc () {
+this.server1= queTask.poll();
+System.out.println("computer one say " +server1.getNum3());
+this.server2= queTask.poll();
+System.out.println("computer two say " +server2.getNum3());
+	
+}
+	public void doingALL () {
+this.doingcalc();
+Timer timer = new Timer();
+TimerTask task = new TimerTask(){
+	
+	public void run() {
+		if(!queTask.isEmpty()) {
+	doingcalc();}
+		else {
+			timer.cancel();
+		}
+	}
+	};
+
+timer.scheduleAtFixedRate(task, 15000 , 2000);
+queTask.add( new objectTasks(0 , 1 , 2));
+
+	}
+
+
+}

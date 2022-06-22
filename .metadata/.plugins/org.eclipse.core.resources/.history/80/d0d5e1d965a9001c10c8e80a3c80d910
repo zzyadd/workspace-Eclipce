@@ -1,0 +1,18 @@
+package progii; 
+import java.util.Scanner;
+public class pubMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		soft e1 = new soft();
+		System.out.println("set employeeNum");
+		e1.setEmployeeNum(sc.nextInt());
+		System.out.println("set employeeSalary");
+		e1.setEmployeeSalary(sc.nextFloat());
+		e1.sayEmployeeNum();
+		e1.sayEmployeeSalary();
+		
+	}
+
+}

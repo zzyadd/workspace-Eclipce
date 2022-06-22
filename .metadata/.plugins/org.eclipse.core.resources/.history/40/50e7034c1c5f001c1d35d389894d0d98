@@ -1,0 +1,41 @@
+package safwa;
+
+import java.util.*;
+
+
+
+public class array {
+	public static double avv () {
+			double aver=0;
+		  Scanner sc = new Scanner(System.in);
+		  System.out.print("how many days'");
+		  int n = sc.nextInt();
+			 double[] x = new double[n];
+
+		for(int i=0 ; i<n ;i++) {
+			System.out.println("enter temp of day "+ (i+1));
+			x[i]=sc.nextDouble();
+			aver = aver + x[i];
+		}
+		aver = aver/n ;
+		  System.out.println("average temp = "+aver);
+int count =0 ;
+		for(int i=0 ; i<n ;i++) {
+			if (x[i] >aver) {
+				count ++ ;
+			}
+		}
+		return count ;
+	}
+	public static void main(String[] args) {
+	/*	// TODO Auto-generated method stub
+		int[] numbers = new int[10] ;
+		for(int i =0 ; i<10 ; i++ ) {
+			numbers[i] = (int)((Math.random()*50)+1);
+System.out.println(numbers[i]);
+} */
+// System.out.println(numbers); 
+		 System.out.println(avv());
+	}
+
+}

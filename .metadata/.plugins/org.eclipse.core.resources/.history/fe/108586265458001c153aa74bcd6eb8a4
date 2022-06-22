@@ -1,0 +1,38 @@
+package assignment1programming1;
+import java.util.*;
+public class Assignmemt2ZyadAshrafHafez {
+public static void main(String[] args) {
+  Scanner sc = new Scanner(System.in);
+  // EX:1
+   int balance = 5000 ;
+  int num1;
+   System.out.print("IF you need : Withdraw the money Enter 1 \n IF you need : Deposit the money Enter 2 ");
+   System.out.print("IF you need : Check the balance Enter 3 \n IF you need : Exit Enter 4 ");
+
+   num1 = sc.nextInt();
+    switch (num1) {
+    case 1: 
+        System.out.println("Withdraw" );
+
+        System.out.println("Your balance is : " + balance );
+        int withdraw ;
+        System.out.print("Enter the value "  );
+        withdraw = sc.nextInt();
+        if ( withdraw <= balance) {
+        	balance -= withdraw ;
+            System.out.print("Take ur money \t your balance now is  " + balance  ); }
+        else {   System.out.print("Enter value less than  " + balance );}
+        break; 
+     case 2 :  {
+       System.out.println("The number is even .");
+       break; }
+     case 3 : {
+     System.out.println("The number is odd .");
+        break ; }
+    }
+    
+    
+    }
+    }
+
+    

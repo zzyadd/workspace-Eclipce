@@ -1,0 +1,27 @@
+package linkedList;
+public class nodes {
+	protected int data ;
+	protected int next;
+	public nodes() {
+		data=0;
+		next =0;
+	}public nodes(int da ,int ne) {
+		data= da;
+		next = ne;
+	}
+	public int getData() {
+		return data;
+	}
+	public void setData(int data) {
+		this.data = data;
+	}
+	public int getNext() {
+		return next;
+	}
+	public void setNext(int next) {
+		this.next = next;
+	}
+	
+	
+	
+}

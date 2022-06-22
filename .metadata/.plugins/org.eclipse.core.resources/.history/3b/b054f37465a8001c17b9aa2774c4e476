@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class timeMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		time t1 = new time();
+		System.out.println("set houer");
+		t1.sethou(sc.nextInt());
+		System.out.println("set min");
+		t1.setmin(sc.nextInt());
+		System.out.println("set sec");
+		t1.setsec(sc.nextInt());
+
+		t1.sayhou();
+		t1.saymin();
+		t1.saysec();
+		t1.saytime();
+	}
+
+}

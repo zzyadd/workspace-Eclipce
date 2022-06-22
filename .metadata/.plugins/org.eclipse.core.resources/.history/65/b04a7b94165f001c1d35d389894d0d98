@@ -1,0 +1,34 @@
+package safwa;
+
+import java.util.*;
+
+
+
+public class array {
+	public static double avv () {
+		 double[] x = new double[5];
+		  Scanner sc = new Scanner(System.in);
+		for(int i=0 ; i<5 ;i++) {
+			System.out.println("enter number");
+			x[i]=sc.nextDouble();
+		}
+		double z=0;
+		for(int i=0 ; i<5 ;i++) {
+			z=z+x[i];
+		}
+		return (z/5) ;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] numbers = new int[10] ;
+		for(int i =0 ; i<10 ; i++ ) {
+			int x = (int)(Math.random()*50)+1;
+numbers[i]=x;
+System.out.println(numbers[i]);
+
+}
+// System.out.println(numbers); 
+		// System.out.println(avv());
+	}
+
+}

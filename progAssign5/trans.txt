@@ -1,0 +1,123 @@
+Account Name is sarah 
+ Accoumt Number is 1122
+ Account Balance is :1085.0
+ Account AnnualRate is 0.015% 
+ Account Date is Wed May 25 16:26:53 EET 2022Account name is : sarah
+Account balance now is : 995.0
+
+ the new transaction on sarah account type is : withDraw
+transaction amount on sarah account is : 5.0
+sarah new balance is : 995.0
+sarah Account balance now is : 995.0Account name is : sarah
+Account balance now is : 991.0
+
+ the new transaction on sarah account type is : withDraw
+transaction amount on sarah account is : 4.0
+sarah new balance is : 991.0
+sarah Account balance now is : 991.0Account name is : sarah
+Account balance now is : 988.0
+
+ the new transaction on sarah account type is : withDraw
+transaction amount on sarah account is : 3.0
+sarah new balance is : 988.0
+sarah Account balance now is : 988.0Account name is : sarah
+Account balance now is : 986.0
+
+ the new transaction on sarah account type is : withDraw
+transaction amount on sarah account is : 2.0
+sarah new balance is : 986.0
+sarah Account balance now is : 986.0Account name is : sarah
+Account balance now is : 985.0
+
+ the new transaction on sarah account type is : withDraw
+transaction amount on sarah account is : 1.0
+sarah new balance is : 985.0
+sarah Account balance now is : 985.0Account name is : sarah
+Account balance now is : 995.0
+
+ the new transaction on sarah account type is : deposit
+transaction amount on sarah account is : 10.0
+sarah new balance is : 995.0
+sarah Account balance now is : 995.0Account name is : sarah
+Account balance now is : 1015.0
+
+ the new transaction on sarah account type is : deposit
+transaction amount on sarah account is : 20.0
+sarah new balance is : 1015.0
+sarah Account balance now is : 1015.0Account name is : sarah
+Account balance now is : 1045.0
+
+ the new transaction on sarah account type is : deposit
+transaction amount on sarah account is : 30.0
+sarah new balance is : 1045.0
+sarah Account balance now is : 1045.0Account name is : sarah
+Account balance now is : 1085.0
+
+ the new transaction on sarah account type is : deposit
+transaction amount on sarah account is : 40.0
+sarah new balance is : 1085.0
+sarah Account balance now is : 1085.0Account Name is zyad 
+ Accoumt Number is 2211
+ Account Balance is :810.0
+ Account AnnualRate is 0.11% 
+ Account Date is Wed May 25 16:26:53 EET 2022Account name is : zyad
+Account balance now is : 550.0
+
+ the new transaction on zyad account type is : deposit
+transaction amount on zyad account is : 50.0
+zyad new balance is : 550.0
+zyad Account balance now is : 550.0Account name is : zyad
+Account balance now is : 610.0
+
+ the new transaction on zyad account type is : deposit
+transaction amount on zyad account is : 60.0
+zyad new balance is : 610.0
+zyad Account balance now is : 610.0Account name is : zyad
+Account balance now is : 680.0
+
+ the new transaction on zyad account type is : deposit
+transaction amount on zyad account is : 70.0
+zyad new balance is : 680.0
+zyad Account balance now is : 680.0Account name is : zyad
+Account balance now is : 760.0
+
+ the new transaction on zyad account type is : deposit
+transaction amount on zyad account is : 80.0
+zyad new balance is : 760.0
+zyad Account balance now is : 760.0Account name is : zyad
+Account balance now is : 850.0
+
+ the new transaction on zyad account type is : deposit
+transaction amount on zyad account is : 90.0
+zyad new balance is : 850.0
+zyad Account balance now is : 850.0Account name is : zyad
+Account balance now is : 840.0
+
+ the new transaction on zyad account type is : withDraw
+transaction amount on zyad account is : 10.0
+zyad new balance is : 840.0
+zyad Account balance now is : 840.0Account name is : zyad
+Account balance now is : 831.0
+
+ the new transaction on zyad account type is : withDraw
+transaction amount on zyad account is : 9.0
+zyad new balance is : 831.0
+zyad Account balance now is : 831.0Account name is : zyad
+Account balance now is : 823.0
+
+ the new transaction on zyad account type is : withDraw
+transaction amount on zyad account is : 8.0
+zyad new balance is : 823.0
+zyad Account balance now is : 823.0Account name is : zyad
+Account balance now is : 816.0
+
+ the new transaction on zyad account type is : withDraw
+transaction amount on zyad account is : 7.0
+zyad new balance is : 816.0
+zyad Account balance now is : 816.0Account name is : zyad
+Account balance now is : 810.0
+
+ the new transaction on zyad account type is : withDraw
+transaction amount on zyad account is : 6.0
+zyad new balance is : 810.0
+zyad Account balance now is : 810.0

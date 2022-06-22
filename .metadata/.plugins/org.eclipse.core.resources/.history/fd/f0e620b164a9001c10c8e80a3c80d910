@@ -1,0 +1,20 @@
+package progii;
+import java.util.*;
+public class soft extends book {
+private float time;
+
+public soft(){
+	super();
+	time=0;
+}
+public soft(String ti , float pr , int cu , float tm){
+	super(ti,pr,cu);
+	time=tm;
+}
+public void setTime(float tm){
+	time = tm;
+}
+public void getTime(){
+	System.out.println("Time is "+ time);
+}
+}

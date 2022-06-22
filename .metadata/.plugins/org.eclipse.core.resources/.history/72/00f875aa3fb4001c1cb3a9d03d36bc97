@@ -1,0 +1,31 @@
+package linkedList;
+import java.io.*;
+public class nodes {
+		int data ;
+		nodes next;
+	public nodes() {
+		data=0;
+		 next =null;
+	}public nodes(int da , nodes ne) {
+		data= da;
+		next =  ne;
+	}
+	public nodes(int da) {
+		data=da;
+	}
+	public int getData() {
+		return data;
+	}
+	public void setData(int data) {
+		this.data = data;
+	}
+	public nodes getNext() {
+		return next;
+	}
+	public void setNext(nodes next) {
+		this.next = next;
+	}
+	
+	
+	
+}

@@ -1,0 +1,22 @@
+
+public class ticket {
+	private int day;
+	private int month;
+	private int year;
+	public ticket(){
+		day=month=year=0;
+	}
+	public void getDate(int d , int m , int y){
+		if((d<0)||(d>31)||(m<0)||(m>13)||y<0) {
+			System.out.println("SERIOUSLY!!!!!");
+		}
+		else {
+		day = d ;
+		month= m;
+		year=y;}
+	}
+	public void showDate(){
+		System.out.println(day +"/"+month+"/"+year);
+	}
+	
+}

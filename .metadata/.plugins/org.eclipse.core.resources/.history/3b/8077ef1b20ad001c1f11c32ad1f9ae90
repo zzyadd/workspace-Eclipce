@@ -1,0 +1,31 @@
+package progAssign5;
+import java.util.*;
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class Mainn {
+
+	public static void main(String[] args) {
+		// type TRUE for deposit and type FALSE for withDraw;
+		ArrayList<trans> transactions = new ArrayList<trans>();
+		// checking TRUE for checking account and checking FALSE for saving account;
+		account a1 = new account("sarah" , true,	1122 ,1000, 0.015 , 1); 
+		trans t1 = new trans(a1,30,true ,1);
+		trans t2 = new trans(a1,40,true, 2);
+		trans t3 = new trans(a1,50,true ,3);
+		trans t4 = new trans(a1,5,false ,0.1);
+		trans t5 = new trans(a1,4,false, 0.2);
+		trans t6 = new trans(a1,2,false ,0.3);
+
+		transactions.add(t1);
+		transactions.add(t2);
+		transactions.add(t3);
+		transactions.add(t4);
+		transactions.add(t5);
+		transactions.add(t6);
+		
+		trans.display (a1 ,  transactions , transactions.size() );
+		
+	}
+
+}

@@ -1,0 +1,28 @@
+package assignment1programming1;
+import java.util.*;
+public class app7 {
+     public static void main(String[] args) {
+        Scanner aScanner = new Scanner (System.in);
+     
+        double a , s , b, c, Area , perimeter ;
+
+        System.out.println("Enter the value of a :");
+       a = aScanner.nextDouble();
+     
+       System.out.println("Enter the value of s :");
+       s = aScanner.nextDouble();
+
+       System.out.println("Enter the value of b:");
+       b = aScanner.nextDouble();
+
+       System.out.println("Enter the value of c :");
+       c = aScanner.nextDouble();
+
+      Area = Math.sqrt(s*(s-a)*(s-b)*(s-c));
+      
+      perimeter = (s*2);
+
+      System.out.println("The Area =\t" + Area + "\nThe Perimeter =\t" + perimeter );
+
+    } 
+}

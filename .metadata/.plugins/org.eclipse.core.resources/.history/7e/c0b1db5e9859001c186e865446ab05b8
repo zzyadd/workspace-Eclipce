@@ -1,0 +1,87 @@
+package assignment1programming1;
+import java.util.*;
+
+public class sssal {
+	public static void first() {
+	System.out.println("  ____ ");
+	System.out.println(" /    \\");
+	System.out.println("/      \\");
+	System.out.println("\\      /");
+	System.out.println(" \\____/ ");}
+	public static void second () {
+		System.out.println();
+		System.out.println("\\       /");
+		System.out.println(" \\_____/");
+		System.out.println("+-------+");
+	}
+	public static void therd () {
+		System.out.println("  ____ ");
+		System.out.println(" /    \\");
+		System.out.println("/      \\");
+		System.out.println("| stop |");
+		System.out.println("\\      / ");
+		System.out.println(" \\____/");
+	}
+	public static void fourth() {
+		System.out.println("  ____ ");
+		System.out.println(" /    \\");
+		System.out.println("/      \\");
+		System.out.println("+-------+");
+	}
+	public static void printx(int x ) {
+		for (int i =0 ; i<=x ; i++ ) {
+			System.out.println(x);
+		}
+	}
+	 public static void fact ( int y) {
+		 int z =1 ;
+		 for (int i =y ; i>=1; i--) {
+			 z *=i ;
+		 }
+		 System.out.println(z);
+	 }
+	public static void pprint(int x , String y ) {
+	 for ( int i =1 ; i<=x ; i++ ) {
+		 System.out.print(y);
+	 }
+	 System.out.println();
+	}	
+	
+	
+	
+	public static void main(String[] args) {
+		 Scanner y = new Scanner (System.in);
+
+	/* for(int i = 0 ;  i<=5 ; i++ ) {
+			for(int j= 0 ; j<=i ; j++ ) {
+				System.out.print("*");
+			}
+			System.out.println("");
+		}
+		int num=1;
+		while(num<=200){
+			System.out.print(num +"  ");
+			num*=2;
+		}
+		int tries = 0 ;
+int sum ;
+	do {
+		int roll1 = 1+ ((int)(Math.random()*6));
+		int roll2 = 1+ ((int)(Math.random()*6));
+		 sum = roll1 + roll2 ;
+		System.out.println( roll1 + "+" + roll2 + "=" + sum );
+		tries++;
+		} while(sum!=7)
+	ystem.out.println("u won after  " + tries); */
+	/*	print ();
+ first ();
+second();
+therd();
+fourth(); 
+
+ printx(6);
+ fact(4); */
+		 pprint (7 ,"zyad");
+	}
+	
+}

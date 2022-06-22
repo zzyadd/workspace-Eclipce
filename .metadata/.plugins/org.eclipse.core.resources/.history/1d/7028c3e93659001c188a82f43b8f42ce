@@ -1,0 +1,33 @@
+package assignment1programming1;
+
+import java.util.Scanner;
+
+public class Quiz1 {
+
+	public static void main(String[] args) {
+ //EX:2
+		 Scanner s = new Scanner (System.in);
+		/* System.out.println("Enter a string: ");
+
+		String x = s.next();
+		System.out.println("the first word is "+ x); */
+		//EX:3
+		int no ;
+		do {
+		System.out.println("Enter a number :");
+		 no = s.nextInt();
+		//if (no == 0) {
+		//	break ;
+		//} 
+		if (no >2 && no <20) {
+			System.out.println("the number is in range ");
+		} else {
+			System.out.println("the number out of range ");
+		}}
+		while(no!=0);
+		
+
+
+	}
+
+}

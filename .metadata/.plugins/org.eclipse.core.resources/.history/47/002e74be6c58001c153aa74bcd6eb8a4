@@ -1,0 +1,67 @@
+package assignment1programming1;
+import java.util.*;
+public class Assignmemt2ZyadAshrafHafez {
+public static void main(String[] args) {
+  Scanner sc = new Scanner(System.in);
+  /*
+  // EX:1
+   int balance = 5000 ;
+  int num1;
+   System.out.println("Enter 1 for Withdraw \n Enter 2 for Deposit");
+   System.out.println("Enter 3 for Check Balance \n Enter 4 for EXIT");
+   System.out.print("Choose the operation:"  );
+
+   num1 = sc.nextInt();
+    switch (num1) {
+    case 1: 
+        System.out.println("WITHDRAW" );
+
+        System.out.println("Your balance is : " + balance + " $");
+        
+        System.out.print("Enter money to be withdrawn: " );
+        int withdraw = sc.nextInt();
+        if ( withdraw <= balance) {
+        	balance -= withdraw ;
+            System.out.print("collect your money \n your balance now is  " + balance + " $" ); }
+        else {   System.out.print(" try again!  and Enter value less than  " + balance );}
+        break; 
+     case 2 :  
+       System.out.println("DEPOSIT");
+       System.out.println("Your balance is : " + balance + " $");
+       System.out.println("Enter money to be DEPOSIT ");
+       int deposit = sc.nextInt();
+       balance += deposit ;
+       System.out.println("Thank you Your money has been deposited successfully :)");
+       System.out.println(" Your balance now is : " + balance + " $");
+       break; 
+     case 3 : 
+     System.out.println("Check the balance");
+     System.out.println("Your balance is : " + balance + " $");
+        break ; 
+     case 4 :
+         System.out.println("Thanks /n /n");
+         break  ;    } */
+    // --------------------
+    // EX 2
+    int count = -1 ;
+    String s = "zyad ashraf Hafez";
+    int numOfS = s.length();
+    System.out.println (s);
+    System.out.println (numOfS);
+    System.out.println (" ");
+    
+    for ( int x = numOfS ; x>0 ; x-- ) {
+    	//char cc = s.charAt(x);
+    	//String jh = ((string)cc) ; 
+    	if ( s.lastIndexOf(" ")==x) {
+    	System.out.println(count + "  ");
+    	 break ; 
+
+     }
+     System.out.print(count + "  ");
+
+    count ++ ;
+    
+			}
+    System.out.println (count);
+    }}
